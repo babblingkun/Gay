@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; /* 他のフォントがデフォルトで使われている場合 */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,17 +12,8 @@ body {
     text-align: center;
 }
 
-@media (max-width: 768px) {
-    .container {
-        width: 90%;
-        padding: 20px;
-    }
-    h1 {
-        font-size: 2em;
-    }
-    p {
-        font-size: 1.2em;
-    }
+h1, p {
+    font-family: 'Hachi Maru Pop', sans-serif; /* Hachi Maru Popフォントを適用 */
 }
 
 .container {
@@ -47,6 +38,7 @@ p {
     position: relative;
     z-index: 1;
 }
+
 
 .profile-picture {
     width: 150px;
