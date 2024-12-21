@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Roboto', sans-serif; /* 他のフォントがデフォルトで使われている場合 */
+    font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +13,7 @@ body {
 }
 
 h1, p {
-    font-family: 'Hachi Maru Pop', sans-serif; /* Hachi Maru Popフォントを適用 */
+    font-family: 'Hachi Maru Pop', sans-serif;
 }
 
 .container {
